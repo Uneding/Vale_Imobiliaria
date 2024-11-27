@@ -1,0 +1,64 @@
+.log{
+
+}
+.fundo-div {
+    background-image: url('Img/fundo1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;  /* Altura da div */
+    width: 100%;    /* Largura da div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+
+/* Container do formulário */
+.search-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+
+/* Estilos do formulário */
+.search-form {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.search-form input,
+.search-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.search-form button {
+    grid-column: span 2;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do título */
+.search-container h2 {
+    font-size: 24px;
+    color: #333;
+}
